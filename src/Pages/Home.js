@@ -16,6 +16,7 @@ const Home = () => {
   const [filterTerm, setFilterTerm] = useState([]);
   const [filteredGame, setFilteredGame] = useState([]);
 
+  // Search for games with where part or all the search term match game title
   const searchGame = (term) => {
     const games = GameData.filter(
       (game) =>
