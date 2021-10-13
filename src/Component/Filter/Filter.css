@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@200&display=swap");
+
+.filter-container {
+  width: 100%;
+  text-align: center;
+}
+
+.filter-container p {
+  font-family: "Anton", sans-serif;
+}
+.filter-container label {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.filter-items {
+  margin-left: 1rem;
+}
+
+.filter-wrapper {
+  display: flex;
+  justify-content: center;
+}
